@@ -1,0 +1,75 @@
+crackers:
+  fun_cracker:
+    type: PAPER
+    name: "&6Fun Cracker"
+    lore: "&6A lot of fun \n&4at your fingertips"
+    enchanted: true
+    warmup: 5
+    rewards:
+      - diamonds: 60
+      - emeralds: 40
+    effects:
+      - redfx: 50
+      - bluefx: 50
+    sounds:
+      - sound_endermantp: 20
+      - sound_explode: 80
+  party_cracker:
+    type: DIAMOND
+    name: "&6Party Cracker"
+    lore: "&6PARTY!!!"
+    enchanted: false
+    warmup: 4
+    rewards:
+      - blaze_rod: 100
+    effects:
+      - purplefx: 100
+    sounds:
+      - sound_explode: 100
+
+rewards:
+  diamonds:
+    type: DIAMOND
+    min_amount: 1
+    max_amount: 4
+  emeralds:
+    type: EMERALD
+    min_amount: 2
+    max_amount: 3
+  blaze_rod:
+    type: BLAZE_ROD
+    min_amount: 1
+    max_amount: 4
+
+sounds:
+  sound_endermantp:
+    sound: ENTITY_ENDERMAN_TELEPORT
+    volume: 1.0
+    pitch: 1.0
+  sound_explode:
+    sound: ENTITY_GENERIC_EXPLODE
+    volume: 1.0
+    pitch: 1.0
+
+effects:
+  redfx:
+    color: "#FF0000"
+    count: 10
+    offset_x: 2
+    offset_y: 2
+    offset_z: 2
+    speed: 2
+  bluefx:
+    color: "#0000FF"
+    count: 15
+    offset_x: 2
+    offset_y: 2
+    offset_z: 2
+    speed: 2
+  purplefx:
+    color: "#FF00FF"
+    count: 1500
+    offset_x: 1
+    offset_y: 1
+    offset_z: 1
+    speed: 2

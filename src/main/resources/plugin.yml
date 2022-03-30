@@ -1,0 +1,8 @@
+name: PartyCrackers
+version: '${project.version}'
+main: me.arcilance.mcplugins.partycrackers.PartyCrackers
+api-version: 1.18
+authors: [Arcilance]
+commands:
+  cracker:
+    usage: /cracker
